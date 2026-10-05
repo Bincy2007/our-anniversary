@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Story ❤️</title>
+.memory {
+    margin-top: 35px;
+    padding: 30px;
+    background: #fff7fa;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.date {
+    font-size: 16px;
+    color: #a66b80;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.memory h2 {
+    font-size: 30px;
+    color: #8b4a62;
+}
+
+.memory p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #6b4b55;
+}
+.anniversary {
+    margin-top: 50px;
+    padding: 40px 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.big-heart {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.anniversary h2 {
+    font-size: 38px;
+    color: #8b4a62;
+}
+
+.days {
+    font-style: italic;
+    color: #a66b80;
+}
+
+.anniversary p {
+    line-height: 1.8;
+    font-size: 17px;
+    color: #6b4b55;
+}
+
+.anniversary h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #8b4a62;
+}
+.letter {
+    margin-top: 40px;
+    padding: 35px 25px;
+    background: #fffafc;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.letter h2 {
+    text-align: center;
+    color: #8b4a62;
+    margin-bottom: 25px;
+}
+
+.letter p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #6b4b55;
+}
+
+.letter .love {
+    text-align: right;
+    font-style: italic;
+    margin-top: 30px;
+}
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Georgia, serif;
+            background: linear-gradient(135deg, #fff0f5, #ffe4ec);
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 50px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            max-width: 500px;
+        }
+
+        .heart {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #8b4a62;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #6b4b55;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 30px;
+            background: #8b4a62;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+#story {
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid #e8cbd5;
+}
+
+#story h2 {
+    font-size: 30px;
+    color: #8b4a62;
+}
+
+#story p {
+    line-height: 1.7;
+}
+ .timeline {
+    margin-top: 45px;
+    text-align: left;
+}
+
+.timeline h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #8b4a62;
+    margin-bottom: 30px;
+}
+
+.timeline-item {
+    background: #fff7fa;
+    padding: 22px;
+    margin: 18px 0;
+    border-left: 4px solid #c98da3;
+    border-radius: 12px;
+}
+
+.timeline-item span {
+    font-size: 14px;
+    color: #a66b80;
+    letter-spacing: 2px;
+}
+
+.timeline-item h3 {
+    color: #8b4a62;
+    margin: 8px 0;
+}
+
+.timeline-item p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #6b4b55;
+    margin: 0;
+}  
+.final-surprise {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.final-surprise > button {
+    padding: 16px 32px;
+    border: none;
+    border-radius: 30px;
+    background: #8b4a62;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#final-message {
+    display: none;
+    margin-top: 30px;
+    padding: 40px 25px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 25px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+#final-message h2 {
+    font-size: 34px;
+    color: #8b4a62;
+}
+
+#final-message p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #6b4b55;
+}
+
+#final-message strong {
+    font-size: 25px;
+}
+
+#final-message h3 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #8b4a62;
+}
+
+.forever {
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.love {
+    font-size: 20px !important;
+    font-style: italic;
+    margin-top: 30px;
+}
+.hearts {
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.hearts span {
+    position: absolute;
+    font-size: 20px;
+    animation: floatHeart 8s linear infinite;
+    opacity: 0;
+}
+
+.hearts span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.hearts span:nth-child(2) {
+    left: 25%;
+    animation-delay: 2s;
+}
+
+.hearts span:nth-child(3) {
+    left: 40%;
+    animation-delay: 4s;
+}
+
+.hearts span:nth-child(4) {
+    left: 60%;
+    animation-delay: 1s;
+}
+
+.hearts span:nth-child(5) {
+    left: 75%;
+    animation-delay: 3s;
+}
+
+.hearts span:nth-child(6) {
+    left: 90%;
+    animation-delay: 5s;
+}
+
+@keyframes floatHeart {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0.8;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
+body {
+    animation: pageFade 1.5s ease-in;
+}
+
+@keyframes pageFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.final-show {
+    animation: finalReveal 1.5s ease forwards;
+}
+
+@keyframes finalReveal {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#final-message .big-heart {
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(1.15);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    45% {
+        transform: scale(1.12);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+}
+.ending {
+    margin-top: 50px;
+    padding: 45px 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.ending-heart {
+    font-size: 50px;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+.ending h2 {
+    font-size: 34px;
+    color: #8b4a62;
+    margin-top: 15px;
+}
+
+.ending p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #6b4b55;
+}
+
+.ending-love {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.ending h3 {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #8b4a62;
+}
+.ending-heart {
+    text-shadow: 0 0 10px rgba(255, 120, 150, 0.5);
+}
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .timeline h2,
+    .story h2 {
+        font-size: 26px;
+    }
+
+    .memory h2 {
+        font-size: 26px;
+    }
+
+    .anniversary h2 {
+        font-size: 32px;
+    }
+
+    .letter,
+    .memory,
+    .anniversary,
+    #final-message,
+    .ending {
+        padding: 25px 18px;
+    }
+
+    .letter p,
+    .memory p,
+    .anniversary p,
+    #final-message p,
+    .ending p {
+        font-size: 16px;
+    }
+
+    .final-surprise > button {
+        font-size: 16px;
+        padding: 14px 25px;
+    }
+
+    .ending h2 {
+        font-size: 28px;
+    }
+}
+.last-line {
+    margin-top: 25px;
+    font-size: 16px;
+    font-style: italic;
+    color: #a66b80;
+    animation: lastLineFade 2s ease-in-out infinite alternate;
+}
+
+@keyframes lastLineFade {
+    from {
+        opacity: 0.5;
+        transform: translateY(3px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="heart">❤️</div>
+
+        <h1>Hey You... 🤍</h1>
+
+        <p>Welcome to our little story.</p>
+
+        <button onclick="showSecret()">Open My Little Secret 💌</button>
+
+<div id="secret">
+    <h2>There’s something I want you to know... ❤️</h2>
+    <p>Some stories are meant to be remembered forever.</p>
+</div>
+<div id="story">
+    <h2>Our Story Begins... ✨</h2>
+
+    <p>
+        And somehow, among all the ordinary days,
+        our story became something special. ❤️
+    </p>
+
+    <p>
+        This is just the beginning...
+    </p>
+</div>
+<div class="memory">
+
+    <div class="date">October 30, 2025</div>
+
+    <h2>The Day I Fell ❤️</h2>
+
+    <p>
+        We didn't really meet that day.
+        It was just a random reply on Instagram
+        to someone I thought was just another stranger.
+    </p>
+
+    <p>
+        I never imagined that one little reply
+        would turn into something this special.
+    </p>
+
+    <p>
+        You asked me to be yours.
+        I said no at first...
+        but somehow, you made me fall. ❤️
+    </p>
+
+    <p>
+        And on October 30, I gave you my number —
+        without knowing that I was giving you
+        a little piece of my world too. 🤍
+    </p>
+
+</div>
+<div class="timeline">
+
+    <h2>Our Little Timeline 🤍</h2>
+
+    <div class="timeline-item">
+        <span>01</span>
+        <h3>A Random Reply</h3>
+        <p>
+            It all started with one random reply on Instagram.
+            I thought you were just another stranger.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span>02</span>
+        <h3>That Unexpected Question</h3>
+        <p>
+            Then came the question I never expected...
+            “Kettikkotte?” ❤️
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span>03</span>
+        <h3>I Said No... 😌</h3>
+        <p>
+            I wasn't ready to say yes.
+            So, at first, my answer was no.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span>04</span>
+        <h3>But Somehow, I Fell ❤️</h3>
+        <p>
+            Somewhere between all those conversations,
+            I stopped seeing you as a stranger.
+        </p>
+    </div>
+
+    <div class="timeline-item">
+        <span>05</span>
+        <h3>October 30, 2025</h3>
+        <p>
+            The day I finally gave you my number.
+            The day our little story truly began. 🤍
+        </p>
+    </div>
+
+</div>
+<div class="anniversary">
+
+    <div class="big-heart">❤️</div>
+
+    <h2>1 Year of Us</h2>
+
+    <p class="days">365 days. Countless moments. One beautiful story.</p>
+
+    <p>
+        Chettaai... 🤍
+    </p>
+
+    <p>
+        One year ago, I never knew that a random reply
+        on Instagram would bring someone so special into my life.
+    </p>
+
+    <p>
+        I didn't say yes right away...
+        but somewhere along the way, I fell for you. ❤️
+    </p>
+
+    <p>
+        And today, when I look back at October 30, 2025,
+        I'm just happy that I gave you my number that day.
+    </p>
+
+    <h3>Happy 1st Anniversary, Chettaai ❤️</h3>
+
+</div>
+<div class="letter">
+
+    <h2>A Little Note for You... 💌</h2>
+
+    <p>
+        Chettaai,
+    </p>
+
+    <p>
+        If someone had told me that one random Instagram reply
+        would lead me here, I probably wouldn't have believed them.
+    </p>
+
+    <p>
+        But here we are...
+        one year later, with a story that started
+        in the most unexpected way. 🤍
+    </p>
+
+    <p>
+        Maybe our beginning wasn't perfect or planned,
+        but I'm glad it happened.
+    </p>
+
+    <p>
+        Thank you for becoming a part of my little world. ❤️
+    </p>
+
+    <p class="love">
+        — With love chettaide kunjan, always 🤍
+    </p>
+
+</div>
+<div class="final-surprise">
+
+    <button onclick="revealLove()">One Last Thing... 💌</button>
+
+    <div id="final-message">
+
+        <div class="big-heart">❤️</div>
+
+        <h2>To My Chettaai...</h2>
+
+        <p>
+            I don't know if words can ever explain
+            everything I feel for you.
+        </p>
+
+        <p>
+            Loving you from a distance comes with
+            so many mixed feelings — missing you,
+            waiting for you, wishing you were here...
+            but somehow, through all of it,
+            one feeling always stays above everything else.
+        </p>
+
+        <p>
+            <strong>Love.</strong> ❤️
+        </p>
+
+        <p>
+            Thank you for being there for me,
+            especially on the days when things at home
+            feel a little too much.
+            Thank you for knowing how to make me smile,
+            calm me down, and make my mind feel lighter.
+        </p>
+
+        <p>
+            Maybe we don't have hundreds of pictures
+            or countless memories together yet.
+            But we have something that started
+            from one completely random reply...
+            and somehow became <em>us.</em>
+        </p>
+
+        <p>
+            And if I had to choose all over again,
+            knowing everything I know now...
+            I'd still choose that little reply.
+            I'd still choose you. 🤍
+        </p>
+
+        <h3>
+            Happy 1st Anniversary, Chettaai. ❤️
+        </h3>
+
+        <p class="forever">
+            Distance may keep us apart for now,<br>
+            but it will never change what you mean to me.
+        </p>
+
+        <p class="love">
+            I love you. Always. ❤️
+        </p>
+
+    </div>
+
+</div>
+
+    </div>
+<script>
+    function showSecret() {
+        document.getElementById("secret").style.display = "block";
+    }
+function revealLove() {
+    const message = document.getElementById("final-message");
+
+    message.style.display = "block";
+    message.classList.add("final-show");
+}
+</script>
+</script>
+    }
+</script><div class="hearts">
+    <span>❤️</span>
+    <span>🤍</span>
+    <span>💕</span>
+    <span>❤️</span>
+    <span>🤍</span>
+    <span>💕</span>
+</div>
+
+<div class="ending">
+    <div class="ending-heart">❤️</div>
+
+    <h2>Until We Meet... 🌙</h2>
+
+    <p>
+        Maybe distance is a part of our story right now...
+        but I believe it won't be forever.
+    </p>
+
+    <p>
+        One day, all these goodbyes, waiting,
+        late-night conversations and missing you
+        will become memories we look back on together. 🤍
+    </p>
+
+    <p class="ending-love">
+        Until that day...<br>
+        I'll keep choosing you. ❤️
+    </p>
+
+    <h3>Forever yours, Chettaai. 🤍</h3>
+<p class="last-line">And this is only the beginning... ❤️</p>
+</div>
+</body>
+</html>
